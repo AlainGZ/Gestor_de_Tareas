@@ -8,7 +8,7 @@ def gestionar_pila():
     pila_tareas = []
     cantidad = int(input("¿Cuántas tareas desea agregar a la pila? "))
     for _ in range(cantidad):
-        tarea = input("Ingrese una tarea: ")
+        tarea = input("Ingrese una tarea:")
         pila_tareas.append(tarea)
     
     print("Pila inicial de tareas:", pila_tareas)
