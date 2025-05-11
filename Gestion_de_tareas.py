@@ -6,7 +6,7 @@ Nombre de Programa: Foro semana 7 de Estructura de Datos
 
 def gestionar_pila():
     pila_tareas = []
-    cantidad = int(input("¿Cuántas tareas desea agregar a la pila? "))
+    cantidad = int(input("¿Cuántas tareas desea agregar a la pila?"))
     for _ in range(cantidad):
         tarea = input("Ingrese una tarea:")
         pila_tareas.append(tarea)
